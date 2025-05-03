@@ -41,6 +41,14 @@ body {
 .search-inp {
   border-radius: 25px;
   padding: 0.5rem 3rem;
+  max-width: 250px;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    height: auto;
+    padding: 1rem;
+  }
 }
 
 /* Footer */
@@ -105,6 +113,18 @@ body {
   padding: 1rem;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .tax-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #filters {
+    display: none;
+  }
 }
 
 /* Cards */
